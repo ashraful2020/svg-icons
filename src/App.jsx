@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./App.css";
 import {
   Bootstrap,
@@ -15,7 +16,7 @@ import {
   Node,
   Phone,
   Portfolio,
-  React,
+  ReactJS,
   Redux,
   Scss,
   Scss2,
@@ -29,30 +30,33 @@ function App() {
   return (
     <>
       <div className="container">
+          <h1>Hello Developer's</h1>
         <div className="main">
           <Bootstrap />
           <Css />
           <Express />
           <Git />
           <Github />
-          <Html />
+          {/* <Html /> */}
           <Javascript />
           <Linkedin />
-          <Mongodb />
+          {/* <Mongodb /> */}
           <Mongodb2 />
           <Next />
           <Next2 />
           <Node />
           <Phone />
-          <Portfolio />
-          <React />
+          {/* <Portfolio /> */}
+          <ReactJS />
           <Redux />
-          <Scss />
-          <Scss2 />
+          {/* <Scss /> */}
+          {/* <Scss2 /> */}
+            {/* 
           <Tailwind />
           <Trello />
-          <Typescript />
-          <Vscode />
+        <Typescript />
+        */}
+        <Vscode /> 
         </div>
       </div>
     </>
